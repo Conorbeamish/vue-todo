@@ -46,18 +46,31 @@ Test can be found in the __tests__ folder for both components and stores
 ### File Structure
 
 src/
+
 ├── assets/               # Static assets like images
+
 ├── components/           # Vue components
+
 │   ├── AddTodo.vue       # Component to add a new todo
+
 │   ├── Banner.vue       # Component to add a new todo
+
 │   ├── TodoItem.vue      # Component to display a single todo item
+
 │   ├── TodoItemDisplay.vue # Component to display todo details (non-editable)
+
 │   ├── TodoItemEdit.vue  # Component to edit a todo item
+
 │   ├── TodoList.vue      # lists todos and handles logic for updating store
+
 ├── stores/               # Pinia store modules
+
 │   └── todo.js           # Todo store module, **API calls are handled from here**
+
 ├── App.vue               # Root Vue component
+
 ├── main.js               # Main entry point of the application
+
 
 
 
