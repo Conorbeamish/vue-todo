@@ -1,35 +1,14 @@
-# Todo
+# Todo List App
 
-This template should help get you started developing with Vue 3 in Vite.
+A Todo List application built with Vue 3, Pinia for state management, and Tailwind CSS for styling. This app allows users to add, edit, delete, and filter todos.
 
-## Recommended IDE Setup
+## Setup
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+### Prerequisites
 
-## Customize configuration
+Ensure you have [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed.
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+This app uses [dummy json API](https://dummyjson.com/docs/todos)
 
-## Project Setup
+### Installation
 
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-npm run test:unit
-```
