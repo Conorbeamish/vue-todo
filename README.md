@@ -53,7 +53,7 @@ src/
 
 │   ├── AddTodo.vue       # Component to add a new todo
 
-│   ├── Banner.vue       # Component to add a new todo
+│   ├── Banner.vue       
 
 │   ├── TodoItem.vue      # Component to display a single todo item
 
