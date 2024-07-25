@@ -1,7 +1,7 @@
 <template>
     <div class="mb-4 flex flex-col">
       <!-- Error Message -->
-      <div v-if="showError" class="text-red-500 mb-2" role="alert">
+      <div v-if="showError" class="text-red-500 mb-2" name="error" role="alert">
         {{ errorMessage }}
       </div>
   
@@ -12,7 +12,7 @@
           placeholder="Add a new todo"
           class="border p-2 w-full rounded-l-md"
         />
-        <button @click="addTodo" class="bg-blue-500 text-white p-2 rounded-r-md w-1/3 hover:bg-blue-600">
+        <button @click="addTodo" name="add" class="bg-blue-500 text-white p-2 rounded-r-md w-1/3 hover:bg-blue-600">
           Add Todo
         </button>
       </div>

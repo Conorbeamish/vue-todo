@@ -1,6 +1,6 @@
 <template>
     <div class="bg-white p-4 rounded shadow mb-2">
-      <div v-if="showEditError" class="text-red-500 mb-2">
+      <div v-if="showEditError" name="error" class="text-red-500 mb-2">
         {{ editErrorMessage }}
       </div>
       <input
@@ -10,10 +10,10 @@
         @keyup.enter="saveEdit"
       />
       <div class="flex space-x-2 mt-2 w-full justify-end">
-        <button @click="saveEdit" class="text-blue-500 hover:text-blue-700">
+        <button @click="saveEdit" name="save" class="text-blue-500 hover:text-blue-700">
           Save
         </button>
-        <button @click="cancelEdit" class="text-gray-500 hover:text-gray-700">
+        <button @click="cancelEdit" name="cancel" class="text-gray-500 hover:text-gray-700">
           Cancel
         </button>
       </div>
