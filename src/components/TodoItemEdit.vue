@@ -22,7 +22,6 @@
   
   <script setup>
   import { ref, watch } from 'vue'
-  import { defineProps, defineEmits } from 'vue'
   
   const props = defineProps({
     todo: {
