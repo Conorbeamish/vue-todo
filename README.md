@@ -15,9 +15,14 @@ This app uses [dummy json API](https://dummyjson.com/docs/todos)
 Clone into repo
 ```
 git clone https://github.com/Conorbeamish/vue-todo.git
-cd Todo
+cd vue-todo
 ```
 Install
 ```
 npm install
 ```
+
+Start development
+```
+npm run dev
+``
