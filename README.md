@@ -31,7 +31,7 @@ npm install
 Start development
 ```
 npm run dev
-``
+```
 
 ### Testing
 
