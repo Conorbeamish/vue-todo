@@ -1,7 +1,7 @@
 <template>
     <div class="mb-4 flex flex-col">
       <!-- Error Message -->
-      <div v-if="showError" class="text-red-500 mb-2">
+      <div v-if="showError" class="text-red-500 mb-2" role="alert">
         {{ errorMessage }}
       </div>
   
